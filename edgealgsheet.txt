@@ -1,0 +1,463 @@
+letter_pair	edgeAlg
+AB	"R2 U': S, R2"
+AD	"L2 U: S', L2"
+AE	U' M: U'/M'
+AF	U'/R' E R
+AG	U/L E L'
+AH	U'/R E' R'
+AJ	"R' U': S, R2"
+AK	"R' F': R U R', E"
+AL	"L U: S', L2"
+AM	U M: U/M'
+AN	U/L' E L
+AO	U'/R' E' R
+AP	U/L E' L'
+AQ	x
+AR	"L' U: S', L2"
+AS	U M': U/M'
+AT	"R U': S, R2"
+AU	"U2, M'"
+AV	"U': S, R2"
+AW	"M, U2"
+AX	"U: S', L2"
+BA	"R2 U': R2, S"
+BD	M2: U/M
+BE	"S', L F' L'"
+BF	"U', R' E R"
+BG	"U: L E L', U"
+BH	"U', R E' R'"
+BJ	"E': U', R' E R"
+BK	"M', R U' R' U"
+BL	"U', R E2 R'"
+BM	x
+BN	"U: L' E L, U"
+BO	"U', R' E' R"
+BP	"U: L E' L', U"
+BQ	"M, R' U' R U"
+BR	"U', R' E2 R"
+BS	U M U M' U M U M'
+BT	"E: U', R E' R'"
+BU	"M U2 M, U"
+BV	"U', R E' R2 E R"
+BW	R U R': U'/M
+BX	l F: L'/S'
+DA	"L2 U: L2, S'"
+DB	M2: U'/M
+DE	x
+DF	"U': R' E R, U'"
+DG	"U, L E L'"
+DH	"U': R E' R', U'"
+DJ	"U, L' E2 L"
+DK	"M', L' U L U'"
+DL	"E: U, L E' L'"
+DM	"S, R' F R"
+DN	"U, L' E L"
+DO	"U': R' E' R, U'"
+DP	"U, L E' L'"
+DQ	"M, L U L' U'"
+DR	"E': U, L' E L"
+DS	U' M U' M' U' M U' M'
+DT	"U, L E2 L'"
+DU	"M U2 M, U'"
+DV	U R U R' U' R' U' R' U R
+DW	U l: U'/R' E R
+DX	"U, L' E L2 E' L'"
+EA	U' M: U/M'
+EB	"L F' L', S'"
+ED	x
+EF	"S: U', R' E R"
+EG	l' U: L'/S'
+EH	"S: U', R E' R'"
+EJ	S' U: L'/E'
+EK	"U' D: S', R' F R"
+EL	"r U: r' E r, U"
+EM	M: U/M'
+EN	r': U/M'
+EO	R' F: R/S
+EP	R M: U/M'
+EQ	"L' U' L U, M'"
+ER	U' l: U/M'
+ES	D' R' F: R/S
+ET	"M': U', L' E L"
+EU	"L' F': L2, E'"
+EV	"r: U', L E' L'"
+EW	"D: L F' L', S"
+EX	"L F' L', S"
+FA	U/R' E R
+FB	"R' E R, U'"
+FD	"U2: R' E R, U"
+FE	"S: R' E R, U'"
+FG	"L, U S' U'"
+FH	M' U: L/S'
+FJ	"E, R U' R'"
+FK	"M2: U' L' U, M"
+FL	x
+FM	"U' r': R U' R', E"
+FN	r U: R'/E
+FO	M' U: R'/E
+FP	U E: R'/S
+FQ	"U' L' U, M'"
+FR	"E', L U L'"
+FS	"U' M: U, R' E R"
+FT	"R': R' E R, U'"
+FU	"U R' F2: R S R', F"
+FV	U' E': R/E'
+FW	M/U' L' U
+FX	U E: L/E'
+GA	U'/L E L'
+GB	"U2: L E L', U'"
+GD	"L E L', U"
+GE	l' U: L/S'
+GF	"U S' U', L"
+GH	"U S' U', L'"
+GJ	"U: L F2 L', S"
+GK	"U: L F L', S"
+GL	S' U': R/E
+GM	L F': L/S'
+GN	"L F': E, L2"
+GO	R' F: R'/S'
+GP	M' U': L'/E'
+GQ	"U' D: S, R' F' R"
+GR	S' U': R'/E'
+GS	"U: L' B' L, S"
+GT	"L E: L' U L, E"
+GU	"L F: E', L2"
+GV	"L' F' L, S"
+GW	"U: S', L B' L'"
+GX	x
+HA	U/R E' R'
+HB	"R E' R', U'"
+HD	"U2: R E' R', U"
+HE	"S: R E' R', U'"
+HF	M' U: L'/S'
+HG	"L', U S' U'"
+HJ	"R: R E' R', U'"
+HK	"U' M': U', R E' R'"
+HL	"E, L' U L"
+HM	l: U/M'
+HN	u: R/S
+HO	"R' F: R2, E'"
+HP	"R2 F: R2, E'"
+HQ	"U' L U, M'"
+HR	x
+HS	"U' M: U, R E' R'"
+HT	"E', R' U' R"
+HU	"F: E', L2"
+HV	u': R'/E
+HW	M/U' L U
+HX	u: L'/E
+JA	"R' U': R2, S"
+JB	"E': R' E R, U'"
+JD	"L' E2 L, U"
+JE	S' U: L/E'
+JF	"R U' R', E"
+JG	"U: S, L F2 L'"
+JH	"R: U', R E' R'"
+JK	"M', U' R U"
+JL	R' U': R/E
+JM	R' U' E': R/E
+JN	"R U' R', E'"
+JO	R' u': R'/E'
+JP	x
+JQ	"M, U' R U"
+JR	R' U': R'/E'
+JS	"U2: M, U R U'"
+JT	U: R'/S
+JU	U D': L/E'
+JV	U R' U' R' U R U R U R' U2
+JW	U D: L/E'
+JX	U: L/E'
+KA	"R' F': E, R U R'"
+KB	"R U' R' U, M'"
+KD	"L' U L U', M'"
+KE	"U' D: R' F R, S'"
+KF	"M': U' L' U, M'"
+KG	"U: S, L F L'"
+KH	"U' M': R E' R', U'"
+KJ	"U' R U, M'"
+KL	"U L' U', M'"
+KM	"R' F': E, R U' R'"
+KN	"M': U R' U', M'"
+KO	"U': S', R' F' R"
+KP	"M': U R U', M'"
+KQ	"U': S, R' F' R"
+KR	"U L U', M'"
+KS	U M' U' M U2 M U M' U
+KT	"U' R' U, M'"
+KU	x
+KV	U R' F': R'/S
+KW	"D': L' F' L, S"
+KX	U' L F: L/S'
+LA	"L U: L2, S'"
+LB	"R E2 R', U'"
+LD	"E: L E' L', U"
+LE	"r U: U, r' E r"
+LF	x
+LG	S' U': R'/E
+LH	"L' U L, E"
+LJ	R' U': R'/E
+LK	"M', U L' U'"
+LM	S U': R'/E
+LN	"L': U, L' E L"
+LO	"U': S', R' F2 R"
+LP	"L' U L, E'"
+LQ	"M, U L' U'"
+LR	U': L/S'
+LS	"U2: M, U' L' U"
+LT	R U': R'/E
+LU	U' D: R'/E
+LV	U':  R'/E
+LW	U' D': R'/E
+LX	U' L U L U' L' U' L' U' L U2
+MA	U M: U'/M'
+MB	x
+MD	"R' F R, S"
+ME	M: U'/M'
+MF	"U' M: R' E R, U'"
+MG	L F': L'/S'
+MH	l: U'/M'
+MJ	R' U' E': R'/E
+MK	"R' F': R U' R', E"
+ML	S U': R/E
+MN	"S': U, L' E L"
+MO	R E' R' U': R/E
+MP	"S': U, L E' L'"
+MQ	"R U R' U', M'"
+MR	S U': R'/E'
+MS	"U D: S, L F' L'"
+MT	R u': R/E'
+MU	"D: R' F R, S'"
+MV	"R' F R, S'"
+MW	"D': R' F R, S'"
+MX	"l': U, R' E R"
+NA	U'/L' E L
+NB	"U2: L' E L, U'"
+ND	"L' E L, U"
+NE	r': U'/M'
+NF	r U: R/E
+NG	"L F': L2, E"
+NH	u: R'/S
+NJ	"E', R U' R'"
+NK	"M2: U R' U', M"
+NL	"L': L' E L, U"
+NM	"S': L' E L, U"
+NO	"R, U' S U"
+NP	M' U': R/S
+NQ	"U R' U', M'"
+NR	"E, L U L'"
+NS	"U M: U', l' E l"
+NT	x
+NU	"F': E, R2"
+NV	u': R/E'
+NW	M/U R' U'
+NX	u: L/E'
+OA	U/R' E' R
+OB	"R' E' R, U'"
+OD	"U2: R' E' R, U"
+OE	R' F: R'/S
+OF	M' U: R/E
+OG	L F': L/S
+OH	"R' F: E', R2"
+OJ	R' u': R/E'
+OK	"U': R' F' R, S'"
+OL	"U': R' F2 R, S'"
+OM	R E' R' U': R'/E
+ON	"U' S U, R"
+OP	"U' S U, R'"
+OQ	"U' D': S, R' F' R"
+OR	"R' E': R U' R', E'"
+OS	"U': l U l', S'"
+OT	"D': U' R' U, M'"
+OU	"R' F': E, R2"
+OV	x
+OW	"U': S, R' B R"
+OX	"R F R', S'"
+PA	U'/L E' L'
+PB	"U2: L E' L', U'"
+PD	"L E' L', U"
+PE	R M: U'/M'
+PF	U E: R/S
+PG	M' U': L/E'
+PH	"R2 F: E', R2"
+PJ	x
+PK	"M': M', U R U'"
+PL	"E', L' U L"
+PM	"S': L E' L', U"
+PN	M' U': R'/S
+PO	"R', U' S U"
+PQ	"U R U', M'"
+PR	"L: L E' L', U"
+PS	"U M: U', L E' L'"
+PT	"E, R' U' R"
+PU	"R2 F': E, R2"
+PV	U' E': R'/E
+PW	M/U R U'
+PX	U E: L'/E
+QA	x
+QB	"R' U' R U, M"
+QD	"L U L' U', M"
+QE	"M', L' U' L U"
+QF	"M', U' L' U"
+QG	"U' D: R' F' R, S"
+QH	"M', U' L U"
+QJ	"U' R U, M"
+QK	"U': R' F' R, S"
+QL	"U L' U', M"
+QM	"M', R U R' U'"
+QN	"M', U R' U'"
+QO	"U' D': R' F' R, S"
+QP	"M', U R U'"
+QR	"U L U', M"
+QS	"U': R B R', S"
+QT	"U' R' U, M"
+QU	"U: S, R' F' R"
+QV	"U D': S, R' F' R"
+QW	"U: S, l U l'"
+QX	"U D: S, R' F' R"
+RA	"L' U: L2, S'"
+RB	"R' E2 R, U'"
+RD	"E': L' E L, U"
+RE	U' l: U'/M'
+RF	"L U L', E'"
+RG	S' U': R/E'
+RH	x
+RJ	R' U': R/E'
+RK	"M', U L U'"
+RL	U': L'/S'
+RM	S U': R/E'
+RN	"L U L', E"
+RO	"R' E2: R U' R', E"
+RP	"L: U, L E' L'"
+RQ	"M, U L U'"
+RS	"U2: M, U' L U"
+RT	R U': R/E'
+RU	U' D: R/E'
+RV	U': R/E'
+RW	U' D': R/E'
+RX	U' L' U' L' U L U L U L'
+SA	U M': U'/M'
+SB	M U' M' U' M U' M' U'
+SD	M U M' U M U M' U
+SE	"U' D': R' F R, S'"
+SF	"U' r': E, R U R'"
+SG	"U: S, r' U' r"
+SH	"U' M: R E' R', U"
+SJ	"U': R, U' M U"
+SK	U M U M' U2 M' U' M U
+SL	"U: L', U M U'"
+SM	"U D: L F' L', S"
+SN	"U M: l' E l, U'"
+SO	"U': S', l U l'"
+SP	"U l: E', L' U' L"
+SQ	"U': S, l U l'"
+SR	"U: L, U M U'"
+ST	"U': R', U' M U"
+SU	"D: L' F' L, S"
+SV	"D' R' F': E, R2"
+SW	x
+SX	"D L F: E', L2"
+TA	"R U': R2, S"
+TB	"E: R E' R', U'"
+TD	"L E2 L', U"
+TE	S' U: L'/E
+TF	"R': U', R' E R"
+TG	"L E2: L' U L, E'"
+TH	"R' U' R, E'"
+TJ	U: R/S
+TK	"M', U' R' U"
+TL	R U': R/E
+TM	R u': R'/E'
+TN	x
+TO	"D': M', U' R' U"
+TP	"R' U' R, E"
+TQ	"M, U' R' U"
+TR	R U': R'/E'
+TS	"U2: M, U R' U'"
+TU	U R': U/M'
+TV	U R U R U' R' U' R' U' R
+TW	"M2, U' R' U"
+TX	U: L'/E
+UA	"M', U2"
+UB	L: F'/L' S' L
+UD	R': F/R S R'
+UE	"L' F': E', L2"
+UF	"U R' F': R S R', F'"
+UG	"L F: L2, E'"
+UH	"F: L2, E'"
+UJ	U D': L'/E'
+UK	x
+UL	U' D: R/E
+UM	"D: S', R' F R"
+UN	"F': R2, E"
+UO	"R' F':  R2, E"
+UP	"R2 F': R2, E"
+UQ	"U: R' F' R, S"
+UR	U' D: R'/E'
+US	"D: S, L' F' L"
+UT	U R': U'/M'
+UV	R': F/R S' R'
+UW	u2 M' u2 M'
+UX	L: F'/L' S L
+VA	"U': R2, S"
+VB	R' U: R/S
+VD	R' U' R U R U R U' R' U'
+VE	"r: L E' L', U'"
+VF	U' E': R'/E'
+VG	"S, L' F' L"
+VH	u': R/E
+VJ	U2 R U' R' U' R' U' R U R U'
+VK	U R' F': R/S
+VL	U': R/E
+VM	"S', R' F R"
+VN	u': R'/E'
+VO	x
+VP	U' E': R/E
+VQ	"U D': R' F' R, S"
+VR	U': R'/E'
+VS	"D' R' F': R2, E"
+VT	R' U R U R U R' U' R' U'
+VU	"R' F': R S' R', F2"
+VW	U' R D: R'/S'
+VX	"U: L2, S"
+WA	"U2, M"
+WB	R U R': U/M
+WD	U l: U/R' E R
+WE	"D: S, L F' L'"
+WF	M'/U' L' U
+WG	"U: L B' L', S'"
+WH	M'/U' L U
+WI	U D: L'/E'
+WJ	"D': S, L' F' L"
+WK	U' D': R/E
+WM	"D': S', R' F R"
+WN	M'/U R' U'
+WO	"U': R' B R, S"
+WP	M'/U R U'
+WQ	"U: l U l', S"
+WR	U' D': R'/E'
+WS	x
+WT	"U' R' U, M2"
+WU	M' U2 M' U2 M2
+WV	U' R D: R/S'
+WX	U' D R D R' D' R' D' R' D R U
+XA	"U: L2, S'"
+XB	L U L' U' L' U' L' U L U
+XD	L U': L'/S'
+XE	"S, L F' L'"
+XF	U E: L'/E'
+XG	x
+XH	u: L/E
+XJ	U: L'/E'
+XK	U' L F: L'/S'
+XL	U2 L' U L U L U L' U' L' U
+XM	"l': R' E R, U"
+XN	u: L'/E'
+XO	"S', R F R'"
+XP	U E: L/E
+XQ	"U D: R' F' R, S"
+XR	L U' L' U' L' U' L U L U
+XS	"D L F: L2, E'"
+XT	U: L/E
+XU	L: F/L' S L
+XV	"U': R2, S'"
+XW	U' R' D' R D R D R D' R' U D'
