@@ -1,13 +1,7 @@
-#include <iostream>
-#include <string>
-#include <map>
-#include <vector>
-#include <ctime>
-#include <cstdlib>
-//#include <memory>
+
 using namespace std;
 
-int cypher(string input, map<string, int> SCC) {
+int cypher(const string &input, map<string, int> SCC) {
     int stringCode = SCC[input];
     return stringCode;
 }
@@ -31,7 +25,7 @@ string userSetting(string input[], const map<string, int>& SCC) {
     return userSettingCode;
 }
 
-vector<string> decripter(string code, const map<string, int>& SCC) {
+vector<string> decripter(const string &code, const map<string, int>& SCC) {
     vector<string> decriptedCode;
     int i=0;
     while (i < code.length()) {
@@ -64,7 +58,7 @@ vector<string> decripter(string code, const map<string, int>& SCC) {
     return decriptedCode;
 }
 
-string edgePairRand(vector<string> userData) {
+string edgePairRand(const vector<string> &userData) {
     int buffPiece = 0;
     int i = 0;
     while (i < 24) {
@@ -181,7 +175,7 @@ string edgePairRand(vector<string> userData) {
     return random_str1 + random_str2;
 }
 
-string cornerPairRand(vector<string> userData) {
+string cornerPairRand(const vector<string> &userData) {
     int buffPiece1 = 0;
     int buffPiece2 = 0;
     int i = 24;
@@ -323,6 +317,24 @@ string cornerPairRand(vector<string> userData) {
     return random_str1 + random_str2;
 }
 
+string printEdgeAlg(const string& ePair, const unordered_map<string, string>& eAlgs) {
+    auto it = eAlgs.find(ePair);
+    if (it != eAlgs.end()) {
+        return it->second;
+    }
+    else {
+        return "Algorithm not found!";
+    }
+}
+string printCornerAlg(const string& cPair, const unordered_map<string, string>& cAlgs) {
+    auto it1 = cAlgs.find(cPair);
+    if (it1 != cAlgs.end()) {
+        return it1->second;
+    }
+    else {
+        return "Algorithm not found!";
+    }
+}
 int main() {
      map<string, int> stringCodeCypher;
     for (char ch = 'A'; ch <= 'Z'; ++ch) {
@@ -511,6 +523,39 @@ int main() {
 
    vector<string> userSettingVector = decripter(setcode, stringCodeCypher);
     int option = -1;
+    ///////////////////////////
+    unordered_map<string, string> edgeAlgs;
+    ////////////////////////
+    unordered_map<string, string> cornerAlgs;
+    //////////////////////
+    ifstream inputFile1("C:/Users/Ball1stic/Desktop/3-style_trainer/edgealgsheet.txt");
+    string line1;
+    if (!inputFile1) {  // Check if the file was opened successfully
+        cerr << "Error: File could not be opened." << endl;
+        return 1;
+    }
+    getline(inputFile1, line1);
+    while (getline(inputFile1, line1)) {
+        size_t pos = line1.find('\t');
+        string val1, val2;
+        val1 = line1.substr(0,pos);
+        val2 = line1.substr(pos, line1.length() - pos);
+        edgeAlgs[val1] = val2;
+    }
+    inputFile1.close();
+    ///////////////////////
+    ifstream inputFile2("C:/Users/Ball1stic/Desktop/3-style_trainer/corneralgsheet.txt");
+    string line2;
+    getline(inputFile2, line2);
+    while (getline(inputFile2, line2)) {
+        size_t pos = line2.find('\t');
+        string val1, val2;
+        val1 = line2.substr(0,pos);
+        val2 = line2.substr(pos, line2.length() - pos);
+        cornerAlgs[val1] = val2;
+    }
+    inputFile2.close();
+    ///////////////////////
     while (true) {
         cout << "Select an option by entering the the value on the left of the selected option from the table below" << endl;
         cout << endl;
@@ -522,7 +567,8 @@ int main() {
         if (option == 1) {
             string useless = "0";
             while (true) {
-                cout << edgePairRand(userSettingVector) << endl;
+                string edgePair = edgePairRand(userSettingVector);
+                cout << edgePair << endl;
                 cout << "enter 1 to exit back to menu, enter 2 to show alg, enter anything else for next pair: ";
                 cin >> useless;
                 cout << endl;
@@ -530,14 +576,18 @@ int main() {
                     break;
                 }
                 if (useless == "2") {
-                    cout << "im too lazy to implement this" << endl;
+                    cout << printEdgeAlg(edgePair, edgeAlgs) << endl;
+                    cout << "enter anything for next pair: ";
+                    cin >> useless;
+                    cout << endl;
                 }
             }
         }
         else if (option == 2) {
             string useless = "0";
             while (true) {
-                cout << cornerPairRand(userSettingVector) << endl;
+                string cornerPair = cornerPairRand(userSettingVector);
+                cout << cornerPair << endl;
                 cout << "enter 1 to exit back to menu, enter 2 to show alg, enter anything else for next pair: ";
                 cin >> useless;
                 cout << endl;
@@ -545,7 +595,10 @@ int main() {
                     break;
                 }
                 if (useless == "2") {
-                    cout << "im too lazy to implement this" << endl;
+                    cout << printCornerAlg(cornerPair, edgeAlgs) << endl;
+                    cout << "enter anything for next pair: ";
+                    cin >> useless;
+                    cout << endl;
                 }
             }
         }
