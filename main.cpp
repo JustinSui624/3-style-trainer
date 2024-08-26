@@ -528,7 +528,7 @@ int main() {
     ////////////////////////
     unordered_map<string, string> cornerAlgs;
     //////////////////////
-    ifstream inputFile1("C:/Users/Ball1stic/Desktop/3-style_trainer/edgealgsheet.txt");
+    ifstream inputFile1("(redacted)/3-style_trainer/edgealgsheet.txt");    //add your own path
     string line1;
     if (!inputFile1) {  // Check if the file was opened successfully
         cerr << "Error: File could not be opened." << endl;
@@ -544,7 +544,7 @@ int main() {
     }
     inputFile1.close();
     ///////////////////////
-    ifstream inputFile2("C:/Users/Ball1stic/Desktop/3-style_trainer/corneralgsheet.txt");
+    ifstream inputFile2("(redacted)/3-style_trainer/corneralgsheet.txt");    //add your own path
     string line2;
     getline(inputFile2, line2);
     while (getline(inputFile2, line2)) {
